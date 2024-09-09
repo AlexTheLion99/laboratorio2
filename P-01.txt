@@ -1,0 +1,15 @@
+1.- En la siguiente línea de código, se pueden observar el uso de comillas invertidas, estas se usan para la creación de template Strings, nombra algunas características importantes y como es que funcionan los anteriormente mencionados “template Strings” y como estos se diferencias de las comillas simples y dobles. 
+
+R.- Template Strings (o plantillas de cadenas) en JavaScript son una característica introducida en ES6 que permite la interpolación de expresiones y la creación de cadenas de texto de múltiples líneas de manera más sencilla.
+
+Características principales:
+1.Interpolación de Expresiones: Puedes incluir variables y expresiones directamente dentro de la cadena utilizando la sintaxis `${expresión}`. 
+2.Multilínea: Permiten crear cadenas de múltiples líneas sin necesidad de concatenar con `\n` o usar `+`.
+3.Mayor legibilidad**: La sintaxis con comillas invertidas (`` ` ``) mejora la legibilidad del código, especialmente al trabajar con cadenas complejas.
+
+Diferencias respecto a comillas simples y dobles:
+1.Interpolación: A diferencia de las comillas simples (`'`) y dobles (`"`), los template strings permiten la interpolación de variables sin necesidad de concatenar.
+2.Multilínea: Con comillas simples y dobles, para crear cadenas de texto en varias líneas es necesario usar el carácter de nueva línea (`\n`), mientras que los template strings permiten escribirlas directamente en varias líneas.
+3.Syntaxis: Los template strings usan comillas invertidas (`` ` ``) en lugar de comillas simples (`'`) o dobles (`"`).
+
+
